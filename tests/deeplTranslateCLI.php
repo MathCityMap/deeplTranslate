@@ -1,5 +1,7 @@
 <?php
 
+use Autentek\DeeplTranslator\deeplTranslate;
+
 $params = array();
 for ($i = 1; $i < count($argv); $i++) {
     list($key, $val) = explode("=", $argv[$i]);

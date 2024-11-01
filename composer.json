@@ -1,0 +1,11 @@
+{
+    "name": "autentek/deepl-translator",
+    "description": "Small package to translate texts using deepl",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Autentek\\DeeplTranslator\\": "src/"
+        }
+    },
+    "require": {}
+}
