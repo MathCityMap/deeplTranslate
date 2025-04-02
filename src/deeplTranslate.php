@@ -5,9 +5,7 @@ use stdClass;
 
 class deeplTranslate
 {
-    private string $rootUrl = "https://api-free.deepl.com/";
-
-    public function __construct(private string $apiKey)
+    public function __construct(private readonly string $apiKey, private readonly string $rootUrl = "https://api-free.deepl.com/")
     {
     }
 
